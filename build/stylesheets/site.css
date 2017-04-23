@@ -1,0 +1,240 @@
+@font-face {
+  font-family: 'DCC-Ash';
+  src: url("DCC-Ash.ttf.woff") format("woff"), url("DCC-Ash.ttf.svg#DCC-Ash") format("svg"), url("DCC-Ash.ttf.eot"), url("DCC-Ash.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+body {
+  background-color: white;
+  color: #333;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+  letter-spacing: .01rem;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 1.58;
+  letter-spacing: -.003em;
+  margin: 0px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box; }
+
+p {
+  font-family: medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif; }
+
+h1 {
+  margin: 0px;
+  line-height: 2em;
+  font-family: 'DCC-Ash' !important;
+  font-style: normal;
+  font-weight: 100; }
+
+h2 {
+  margin: 0px; }
+
+.main-wrapper {
+  width: 100vw;
+  height: 100vh;
+  background: black;
+  color: black;
+  display: table-caption;
+  background-image: url("/images/background-1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.main-wrapper-container {
+  list-style: none;
+  font-style: italic;
+  margin-top: 50vh;
+  transform: translateY(-50%); }
+
+.main-wrapper-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0px 50px; }
+
+h1 .title1 {
+  display: block;
+  line-height: 1em;
+  font-size: 2em;
+  color: #92b947; }
+
+h1 .title2 {
+  display: block;
+  line-height: 1em;
+  font-size: 2.5em;
+  color: #6b6b60; }
+
+.intro-main {
+  background-image: url("/images/background-intro-main.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: table-caption; }
+
+.intro-main-title {
+  list-style: none;
+  margin-top: 50vh;
+  transform: translateY(-50%);
+  text-align: center; }
+
+h2 {
+  margin: 0px;
+  line-height: 2.5em;
+  font-family: 'DCC-Ash' !important;
+  font-style: normal;
+  font-weight: 100;
+  color: white; }
+
+h2 .title1 {
+  display: block;
+  font-size: 1.75em; }
+
+h2 .title2 {
+  display: block;
+  font-size: 3em;
+  color: #cdff6f; }
+
+.mobile-scroll-nav {
+  height: 15px;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background: rgba(139, 195, 74, 0.4);
+  transform: translateY(40px);
+  transition: all .5s ease;
+  z-index: 1000; }
+
+#mobile-scoll-nav-advancement {
+  height: 15px;
+  background: #92b948;
+  transition: all .1s ease;
+  z-index: 1000; }
+
+.svg-scroll {
+  width: 100%;
+  position: fixed;
+  bottom: -3px; }
+
+.part {
+  display: block;
+  position: fixed;
+  bottom: -55px;
+  transform: translateX(-50px);
+  padding: 5px 5px 60px 5px;
+  background-color: #5a5a4b;
+  color: white;
+  line-height: 1em;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 0.7em;
+  transition: all .2s ease;
+  transform: translateY(40px) !important;
+  z-index: 1000; }
+
+.part:hover {
+  bottom: -30px; }
+
+#intro {
+  left: 0px;
+  transform: none; }
+
+#first-part {
+  left: 30%; }
+
+#second-part {
+  left: 50%; }
+
+#three-part {
+  left: 70%; }
+
+#four-part {
+  left: 85%; }
+
+#five-part {
+  right: 0%; }
+
+.scrolled .mobile-scroll-nav {
+  transform: translateY(0px); }
+
+.scrolled .part {
+  transform: translateY(0px) !important; }
+
+.text-inner-col {
+  font-size: 20px;
+  padding: 40px; }
+
+.background-line {
+  width: 1px;
+  background: rgba(95, 95, 95, 0.32);
+  height: 100vh;
+  margin-left: 50%;
+  top: 0;
+  position: fixed;
+  z-index: -1; }
+
+.update-container {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.88);
+  z-index: 999; }
+
+.update {
+  position: fixed;
+  max-width: 540px;
+  width: 100%;
+  background: white;
+  border-radius: 3px;
+  font-size: 16px;
+  text-align: center;
+  transform: translateY(-50%) translateX(-50%);
+  margin-left: 50vw;
+  margin-top: 50vh;
+  z-index: 1000; }
+
+.inner-update {
+  padding: 20px; }
+
+.photolol {
+  background-image: url("/images/paul-pichot.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 140px;
+  height: 140px;
+  border-radius: 70px;
+  margin: 25px auto 10px auto; }
+
+.update span {
+  font-weight: 600;
+  font-size: 20px; }
+
+.lastone {
+  margin: 20px 0px; }
+
+.getwebsite {
+  background: #4CAF50;
+  color: white;
+  margin: 20px auto 0px auto;
+  padding: 5px;
+  border-radius: 2px;
+  font-weight: 500;
+  width: 120px;
+  cursor: pointer; }
+
+.getwebsite:hover {
+  background: #3b8a3e; }
+
+.date {
+  color: #2b8e2f;
+  font-weight: 600; }
+
+.displaynone {
+  display: none; }
+
+.whatsnew ul {
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: left; }
